@@ -1,0 +1,36 @@
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+  left:-4%;
+}
+.gallery .item {
+  height: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 105%;
+  text-align: center;
+}
+.gallery .control-button {
+  display: flex;
+  padding: 0;
+}
+
+.menu{
+	width: 50%;
+}

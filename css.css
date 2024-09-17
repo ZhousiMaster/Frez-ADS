@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+
+#lateral {
+		width: 60%;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+		background-color: White; 
+		margin: -20px auto 10px auto;
+}
+
+	img#imagem {
+		width: 50%;
+		height: 700px; 
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+		margin: -20px auto 10px auto;
+		padding: 30px;
+	}
+	
+	#site {
+	width: 56%;
+	padding: 20px;
+	margin: 40px auto;
+	background: #FFF; 
+	background: rgba(255,255,255,0.8);
+	}
+
+@media only screen and (max-width:620px) {
+		/* For mobile phones: */
+		.menu, .main, .right {
+		  width:100%;
+		}
+	  }	

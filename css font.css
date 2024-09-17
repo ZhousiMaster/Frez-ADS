@@ -1,0 +1,31 @@
+@font-face {
+
+      font-family: "cooper-black-1";
+      src: url("../cooper-black-1.ttf") format("truetype");
+
+      }
+
+
+.cooper-black-1-font{
+    font-family: "cooper-black-1";  
+       } 
+	   
+@font-face {
+
+      font-family: "roman";
+      src: url("../roman.ttf") format("truetype");
+
+      }
+
+
+.roman-font{
+    font-family: "roman";  
+       } 
+	   
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+

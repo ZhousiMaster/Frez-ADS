@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+.cx-texto{
+	height: 400px;
+	border-radius: 40px;
+	background: #FF8000;
+	padding: 10;
+	color: white;
+	text-align: center;
+	font-size:15px;
+}
+	
+.cx-texto:hover{
+	height: 420px;
+	border-radius: 40px;
+	background: #FF8000;
+	padding: 10;
+	color: white;
+	transform: scale(1.1);
+	transition: 0.4s;
+	text-align: center;
+}
+	
+	
+.cx-texto .hoverzada{
+	border-radius: 10px;
+}
+	
+.cx-texto .hoverzada:hover{
+	background: linear-gradient(#1289A7, #0000cd);
+	transition: 0.3s;
+	border-radius: 10px;
+}
+	
+.cx-texto .hoverzada:active{
+	background: linear-gradient(#0652DD, #1B1464, #1289A7);
+}
+
+.cx-texto placeholder{
+	color:white;
+}	
+	
+	/*segunda parte*/
+.cx-texto2{
+	height: 40px;
+	border-radius: 40px;
+	background: #FF8000;
+	padding: 10;
+	color: white;
+	text-align: center;
+	font-size:15px;
+}
+	
+.cx-texto2:hover{
+	height: 40px;
+	border-radius: 40px;
+	background: #FF8000;
+	padding: 10;
+	color: white;
+	transform: scale(1.1);
+	transition: 0.4s;
+	text-align: center;
+}
+	
+	
+.cx-texto2 .hoverzada2{
+	border-radius: 10px;
+}
+	
+.cx-texto2 .hoverzada2:hover{
+	background: linear-gradient(#FF4000, #FFBF00);
+	transition: 0.3s;
+	border-radius: 10px;
+}
+	
+.cx-texto2 .hoverzada2:active{
+	background: linear-gradient(#FF0000, #DF3A01, #FF8000);
+}
+
+	/*Botão*/
+
+a{
+	text-decoration: none;
+	color: white;
+}	
+button {
+	width: 100px;
+	height: 40px;
+	border-radius: 40px;
+	background: #FF8000;
+	padding: 10;
+	color: white;
+	font-size:15px;
+	border-radius: 10px;
+}
+
+button:hover{
+	height: 40px;
+	border-radius: 40px;
+	background: #FF8000;
+	padding: 10;
+	color: white;
+	transform: scale(1.1);
+	transition: 0.4s;
+	text-align: center;
+	background: linear-gradient(#FF4000, #FFBF00);
+	transition: 0.3s;
+	border-radius: 10px;
+}
+
+button:active{
+	background: linear-gradient(#FF0000, #DF3A01, #FF8000);
+}

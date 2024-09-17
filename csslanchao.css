@@ -1,0 +1,173 @@
+
+.ico{
+	margin-top: 50%;
+	width: 2%;
+	height: 2%;
+}
+
+.estilizacao{ /*Formatando a lista*/
+						display: block; /*coloca as UL uma embaixo da outra, fora que o block permite as tags width e height*/
+						width: 880px; /*Colocando largura equivalente a 2 imagens + 280 pixels*/
+						list-style: none; /*Tira os pontos (marcadores) da lista*/
+					}
+
+					.estilizacao li{ 
+						display: block; /*Coloca os elementos do li, no caso as imagens, um embaixo do outro*/
+						float: left;	/*Posiciona os elementos a esquerda*/
+						width: 300px;	/*Largura do li*/
+						margin: 50px;	/*Margem entre os Li*/
+						height: 300px; 	/*Altura do Li*/
+						position: relative; /*O position relative posiciona o elemento em relação a si mesmo.
+							Ou seja, o ponto zero será o canto superior esquerdo, e ele começará a contar a partir dali.*/
+						cursor: pointer; /*Muda o cursor para a mão*/
+					}
+
+					.estilizacao li img{
+						width: 100%; /*Largura da imagem*/
+						height: 100%; /*Altura da Imagem*/
+						display: block; /*Coloca uma embaixo da outra*/
+						z-index: 999;
+						position: absolute;
+						transition: .5s;
+					}
+
+					.conteudo{
+						display: block;
+						width: 100%;
+						height: 80px;
+						background-color: #000000;
+						overflow: hidden;
+						color: #fff;
+						margin-top: 220px;
+						font-family: "Arial";
+					}
+
+					.estilizacao li:hover img{
+						margin-top: -80px;
+					}
+
+					.conteudo p{
+						display: block;
+						color: #fff;
+						position: relative;
+						float: left;
+						width: 200px;
+						margin: 10px;
+						margin-bottom: 0;
+						font-family: 'lato', sans-serif;
+						font-size: 20px;
+					}
+
+					@font-face {
+
+						font-family: "Halloween";
+						src: url("../Halloween.ttf") format("truetype");
+					
+						}
+					
+					
+					.Halloween-font{
+					  font-family: "Halloween";  
+						 } 
+					
+						
+					} 
+
+					font-family: arial; /*Tipo da fonte do botao*/
+				font-size: 14px; /*Tamanho da Fonte*/
+				text-transform: uppercase; /*Deixa tudo as letras maiusculas*/
+				font-weight: 700; /*Deixa em negrito*/
+				border: none; /*Deixa sem borda*/
+				padding: 10px; /*Aumenta a distancia do texto com a borda*/
+				cursor: pointer; /*Quando passa o mouse em cima fica uma mão*/
+				background-color: #7401DF; /*Cor de fundo do botão*/
+				color: white; /*Cor da letra*/
+				box-shadow:0 5px 0 #A64DFF;	/*Da sombra ao botão*/		
+				margin: 10px;
+				}
+				
+			.botaoo:hover{ /*Efeito quando o mouse passa por cima*/
+				background: #DC73FF; /*Muda a cor do botão quando o mouse passa por cima*/
+			}
+
+			.botaoo:active{ /*Efeito quando é clicado*/
+				background: #DC73FF; /*A cor não muda*/
+				color:white; /*A cor da letra não muda*/
+				box-shadow: none; /*Não tem mais a sombra*/
+				position: relative;
+				top: 5px;/*Faz ele "abaixar"*/
+			}
+
+			.content{
+				margin: 30px;
+				text-align: center;
+				
+				
+			   }
+		   .botao01{
+			   
+			  text-align: center;
+			   margin-left: 70%;
+			   margin-top: -8%;
+				background: -webkit-linear-gradient(bottom, #fff, #fff 70%);
+				background: -moz-linear-gradient(bottom, #fff, #fff 70%);
+				background: -o-linear-gradient(bottom, #fff, #fff 70%);
+				background: -ms-linear-gradient(bottom, #fff, #fff 70%);
+				background: linear-gradient(bottom, #fff, #fff 70%);
+				background-image: url(../lapis.png) center;
+				border: 1px solid #fff;
+				border-radius: 3px;
+				box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+							  0 2px 7px rgba(0, 0, 0, 0.2);
+			   
+				color: #000000;
+				display: block;
+				font-family: "Trebuchet MS";
+				font-size: 10px;
+				font-weight: bold;
+				line-height: 25px;
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+				text-shadow:1px 1px 0 #fff;
+				padding: 2px 3px;
+				position: absolute;
+				/*width: 15px;
+				height: 23px;*/
+			
+		   .botao01:before{
+			   
+			   text-align: center;
+				border: 1px solid #fff;
+				border-radius: 3px;
+				box-shadow: inset 0 -2px 12px -4px rgba(70, 70, 70, .2),
+							  inset 0 3px 2px -1px rgba(255, 255, 255, 1);
+				content: "";
+				bottom: 0;
+				left: 0;
+				right: 0;
+				top: 0;
+				padding: 5px;
+				position: absolute;
+			   }
+			
+			   .botao01:after{
+				   background-image: url(lapis.png);
+				background: rgba(255, 255, 255, .4);
+				border-radius: 2px;
+				content: "";
+				bottom: 15px;
+				left: 0px;
+				right: 0px;
+				top: 0px;
+				position: absolute;
+			   }
+			.botao01:active{
+				box-shadow: inset 0 0 7px rgba(0, 0, 0, .2);
+				top: 4px;
+			   }
+			   .botao01:active:before{
+				border: none;
+				box-shadow:none;
+			   }
+   
